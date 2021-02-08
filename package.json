@@ -1,0 +1,38 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "start": "expo start --ios --android",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@firebase/firestore": "latest",
+    "expo": "~36.0.0",
+    "expo-analytics": "^1.0.14",
+    "expo-cli": "^3.11.7",
+    "expo-constants": "~8.0.0",
+    "firebase": "^7.5.2",
+    "firebase-functions": "^3.3.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^3.13.0",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.6.2",
+    "rxjs": "^6.5.3",
+    "expo-analytics-amplitude": "~8.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true
+}
